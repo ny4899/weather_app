@@ -1,0 +1,39 @@
+@import "./variable.css";
+
+.search_wrapper {
+  width: 100%;
+  height: var(--search_height);
+  display: flex;
+  background-color: var(--white_transparent);
+  border-radius: 8px;
+}
+
+.search_wrapper .icon_box {
+  width: var(--search_height);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search_wrapper .icon_box img {
+  width: 25px;
+  color: var(--white);
+}
+
+.search_wrapper .search_input {
+  width: calc(100% - var(--search_height));
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  color: var(--text);
+}
+
+.search_wrapper .search_input:focus {
+  outline: none;
+  caret-color: var(--text);
+}
+
+.search_wrapper .search_input::placeholder {
+  color: var(--text_transparent)
+}

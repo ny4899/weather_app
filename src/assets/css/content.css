@@ -1,0 +1,12 @@
+.content_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content_wrapper_inner {
+  width: 48%;
+}
+.content_wrapper .right_wrapper {
+}
+.content_wrapper.left_wrapper {
+}

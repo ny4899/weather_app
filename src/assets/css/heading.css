@@ -1,0 +1,9 @@
+@import "./variable.css";
+
+.heading_wrapper {
+  padding: 10px 0px 25px 0px;
+}
+
+.heading_wrapper h2 {
+  color: var(--text);
+}

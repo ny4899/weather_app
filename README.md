@@ -8,9 +8,7 @@ This will display the installed Node.js version. Ensure that you have Node.js in
 2. Clone the Weather App Repository:
    Clone the repository of your Weather App project using Git. Run the following command in your terminal or command prompt:
 
-### `git clone https://github.com/your-username/weather_app.git`
-
-Replace `your-username` with your actual GitHub username.
+### `git clone https://github.com/ny4899/weather_app.git`
 
 3. Navigate to the Project Directory:
    Navigate to the project directory using the `cd` command:

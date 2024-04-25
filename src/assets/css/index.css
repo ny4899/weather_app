@@ -26,4 +26,9 @@ body {
   background-color: var(--blue);
   border-radius: 20px;
   padding: 25px;
+  overflow-y: scroll;
+}
+
+.card_wrapper::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
 }

@@ -74,3 +74,37 @@
 .content_wrapper .left_wrapper .details_box .title {
   color: var(--text_transparent);
 }
+
+@media only screen and (max-width: 800px) {
+  .content_wrapper {
+    display: block;
+    align-items: unset;
+    justify-content: unset;
+    margin-top: 40px;
+  }
+  .content_wrapper .right_wrapper {
+    width: 100%;
+  }
+
+  .content_wrapper .left_wrapper {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .content_wrapper .right_wrapper .city {
+    font-size: 18px;
+  }
+  .content_wrapper .right_wrapper .date {
+    font-size: 14px;
+  }
+  .content_wrapper .right_wrapper .huge_txt {
+    font-size: 80px;
+  }
+
+  .content_wrapper .right_wrapper .tag {
+    font-size: 14px;
+  }
+  .content_wrapper .right_wrapper .feels_like {
+    font-size: 14px;
+  }
+}

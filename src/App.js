@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app_wrapper">
       <div className="card_wrapper">
-        <Heading />
+        <Heading txt={"Forecasting made easy"} />
         <Search
           setData={setData}
           setError={setError}
@@ -27,7 +27,7 @@ function App() {
         ) : error === "Failed to fetch data" ? (
           <NoData />
         ) : error ? (
-          <Error />
+          <Error txt={"Something went wrong"} />
         ) : data ? (
           <Content data={data} />
         ) : null}

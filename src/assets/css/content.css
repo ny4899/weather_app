@@ -1,12 +1,76 @@
+@import "./variable.css";
+
 .content_wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 40px;
 }
-.content_wrapper_inner {
-  width: 48%;
+
+.t_style {
+  text-align: center;
+  color: var(--text);
 }
+
+.t_style_trans {
+  text-align: center;
+  color: var(--text_transparent);
+}
+
 .content_wrapper .right_wrapper {
+  width: 55%;
 }
-.content_wrapper.left_wrapper {
+
+.content_wrapper .right_wrapper .city {
+  font-size: 20px;
+}
+.content_wrapper .right_wrapper .date {
+  font-size: 14px;
+}
+.content_wrapper .right_wrapper .huge_txt {
+  font-size: 100px;
+}
+.content_wrapper .right_wrapper .tag_wrapper {
+  display: flex;
+  justify-content: center;
+}
+.content_wrapper .right_wrapper .tag {
+  width: max-content;
+  padding: 5px 15px;
+  border-radius: 4px;
+  background-color: var(--white_transparent);
+  font-size: 16px;
+}
+.content_wrapper .right_wrapper .feels_like {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.content_wrapper .left_wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_wrapper .left_wrapper .details_box {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white_transparent);
+  margin-bottom: 20px;
+}
+
+.content_wrapper .left_wrapper .details_box p {
+  text-align: center;
+}
+
+.content_wrapper .left_wrapper .details_box .digit {
+  color: var(--text);
+  font-size: 25px;
+  font-weight: 700;
+  margin-right: 12px;
+}
+
+.content_wrapper .left_wrapper .details_box .title {
+  color: var(--text_transparent);
 }

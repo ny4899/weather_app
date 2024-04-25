@@ -1,0 +1,13 @@
+@import "./variable.css";
+
+.loading_wrapper {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading_wrapper h4 {
+  color: var(--text);
+}
